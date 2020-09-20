@@ -1,15 +1,22 @@
 #pack SimpTrain
 import simpTrain
 
+
+
 # - Description:
 # - - This package provides basic, easy use machine learning and visual recognition functionalities. Including visual recognition object determination, handwriting text recognition, and more.
 
+
+
 # - Documents:
-# - Visual recognition
-from simpTrain import vision
 
-vision.train()
 
-p = vision.predict(".\\testApple01.png")
+# - Visual recognition:
+#from simpTrain import vision
+#vision.train()
+#vision.predict(".\\pics\\testApple01.png")
 
-print(p)
+
+# - Handwriting recognition:
+from simpTrain import handwriting
+handwriting.predict(".\\pics\\testCarpetHandwritting.png")
