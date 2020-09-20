@@ -1,2 +1,2 @@
-from . import vision
-from . import handwritting
+import simpTrain.vision
+import simpTrain.handwriting
